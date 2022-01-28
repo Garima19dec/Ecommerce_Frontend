@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Ecommerce</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body>
+      <nav>
+         <div class="menu-icon">
+            <span class="fas fa-bars"></span>
+         </div>
+         <div class="logo">
+            Cool Vegies
+         </div>
+         <div class="nav-items">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Deals</a></li>
+            <li><a href="#">Stores</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Category
+               <i class="fas fa-caret-down"></i>
+            </a>
+               <ul>
+                  <li><a href="#">Fruits</a></li>
+                  <li><a href="#">Vegies</a></li>
+               </ul>
+            </li>
+         </div>
+         <div class="search-icon" >
+            <span class="fas fa-search"></span>
+         </div>
+         <div class="cancel-icon">
+            <span class="fas fa-times"></span>
+         </div>
+         
+         <form action="#">
+            <input type="search" class="search-data" 
+           id="search-icon" placeholder="Search" 
+          onkeyup="myFunction()" required>
+            <button type="submit" class="fas fa-search"></button>
+         </form>
+         <div class="cart-icon">
+
+            <a href="./index-cart.html" >            
+               <i class="fas fa-shopping-cart" style="color: #ffffff;"></i>
+            </a>
+         </div>
+      </nav>
+   
+      <header class="bann">
+         <section class="h-text">
+            <i class="fa fa-shopping-basket" aria-hidden="true" id="basket"></i>
+            <h1 data-aos="zoom-in-down" data-aos-delay="100">An exciting place for the whole family to shop.</h1>
+               <div data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="100">
+                  <input type="text" name="" placeholder="Search here...">
+                  <button><i class="fa fa-search"></i></button>
+               </div>
+         </section>
+      </header>
+
+
+      <div class="container">
+
+         <div class="portfolio-menu" style="margin-top: 50px;">
+            <ul>
+               <li class="active" data-filter="*"> All</li>
+               <li data-filter=".frt"> Fruits</li>
+               <li data-filter=".veg">
+                  Vegetables</li>
+               
+            </ul>
+         </div>
+
+         <main class="grid" >
+            <article class="frt"data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="100">
+               <img src="images/apple.jfif" alt="">
+               <div class="text">
+                  <h3>Card 1</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, maiores?</p>
+                  <button>Add To Cart</button>
+               </div>
+            </article>
+            <article class="frt" data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="200">
+               <img src="images/bananajfif.jfif" alt="">
+               <div class="text">
+                  <h3>Card 2</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, maiores?</p>
+                  <button>Add To Cart</button>
+               </div>
+            </article>
+            <article class="frt" data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="300">
+               <img src="images/watermelonjfif.jfif" alt="">
+               <div class="text">
+                  <h3>Card 3</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, maiores?</p>
+                  <button>Add To Cart</button>
+               </div>
+            </article>
+            <article class="frt" data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="400">
+               <img src="images/oranges.jfif" alt="">
+               <div class="text">
+                  <h3>Card 4</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, maiores?</p>
+                  <button>Add To Cart</button>
+               </div>
+            </article>
+         </main>
+
+         <main class="grid">
+            <article class="veg" data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="100">
+               <img src="images/tomato.jfif" alt="">
+               <div class="text">
+                  <h3>Card 5</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, maiores?</p>
+                  <button>Add To Cart</button>
+               </div>
+            </article>
+            <article class="veg" data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="100">
+               <img src="images/capcicum.jfif" alt="">
+               <div class="text">
+                  <h3>Card 6</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, maiores?</p>
+                  <button>Add To Cart</button>
+               </div>
+            </article>
+            <article class="veg" data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="100">
+               <img src="images/carrots.jfif" alt="">
+               <div class="text">
+                  <h3>Card 7</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, maiores?</p>
+                  <button>Add To Cart</button>
+               </div>
+            </article>
+            <article class="veg"data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="100">
+               <img src="images/onion.jfif" alt="">
+               <div class="text">
+                  <h3>Card 8</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, maiores?</p>
+                  <button>Add To Cart</button>
+               </div>
+            </article>
+         </main>
+
+      </div>
+
+         <section class="filter-gallery">
+            <div class="portfolio-menu">
+                  <ul>
+                     <li class="active" data-filter="*"> All</li>
+                     <li data-filter=".web"> Nature</li>
+                     <li data-filter=".seo">
+                        Faishon</li>
+                     <li data-filter=".graphics">Wedding</li>
+                  </ul>
+               </div>
+               <div class="portfolio-item">
+                  <div class="item web"  data-aos="flip-left" data-aos-offset="100" data-aos-delay="100">
+                     <img src="images/p1.jpg" width="100" height="100">
+                  </div>
+         
+                  <div class="item seo"  data-aos="flip-left" data-aos-offset="100" data-aos-delay="200">
+                     <img src="images/p2.jpg" width="100" height="100">
+                  </div>
+                  <div class="item graphics"  data-aos="flip-left" data-aos-offset="100" data-aos-delay="300">
+                     <img src="images/p3.jpg" width="100" height="100">
+                  </div>
+                  <div class="item web" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="100">
+                     <img src="images/p4.jpg" width="100" height="100">
+                  </div>
+         
+                  <div class="item seo" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="200">
+                     <img src="images/p5.jpg" width="100" height="100">
+                  </div>
+                  <div class="item seo" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="300">
+                     <img src="images/p6.jpg" width="100" height="100">
+                  </div>
+                  <div class="item graphics" data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="100">
+                     <img src="images/p7.jpg" width="100" height="100">
+                  </div>
+                  <div class="item graphics" data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="200">
+                     <img src="images/p8.jpg" width="100" height="100">
+                  </div>
+                  <div class="item graphics" data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="300">
+                     <img src="images/p9.jpg" width="100" height="100">
+                  </div>
+               </div>
+            
+         </section>
+
+
+
+         <section class="members">
+            <div class="member-info"  data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="100">
+      <h1>Our<span>Informations
+      </span></h1>
+         <p>What our member says</p>
+          </div>
+      
+      
+      <div class="member-card"  data-aos="zoom-in-down" data-aos-offset="100" data-aos-delay="300">
+         
+      
+         <img src="images/member.png">
+         <p>
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum at nemo magnam sequi! Dolorum voluptates, pariatur fuga fugit a deserunt consequatur obcaecati corporis earum nam. Doloremque veritatis at quibusdam deleniti.
+         </p>
+         <h2>* Maria Sharapova</h2>
+      
+         <img src="images/icon1.png" width="100">
+         <img src="images/icon2.png" width="100">
+         <img src="images/icon3.png" width="100">
+         <img src="images/icon4.png" width="100">
+      </div>
+      <div class="m-images"  data-aos="zoom-in" data-aos-offset="100" data-aos-delay="300">
+         <img src="images/s1.jpg">
+         <img src="images/s2.jpg">
+         <img src="images/s3.jpg">
+         <img src="images/s4.jpg">
+         <img src="images/s5.jpg">
+         <img src="images/s6.jpg">
+      </div>
+      </section>
+
+
+
+         <footer>
+
+            <div class="newsletter">
+               <div data-aos="fade-up" data-aos-offset="200">
+                  <h2>Subscribe our newsletter</h2>
+                  <p>We’re a team of non-cynics who truly care for our work.</p>
+               </div> 
+          
+            <div class="n-text" data-aos="fade-up-right"data-aos-offset="200">   
+            <div class="content">
+            <header>Subscribe here..</header>
+            <form action="#">
+               <div class="field">
+                  <input onkeyup="check()" id="email" type="text" autocomplete="off" placeholder="Enter Email Address">
+                  <div class="icons">
+                     <span class="icon1 fas fa-exclamation"></span>
+                     <span class="icon2 fas fa-check"></span>
+                  </div>
+               </div>
+               <div class="error-text">
+                  Please Enter Valid Email Address
+               </div>
+               <div>
+                  <button class="subbtn">Submit</button>
+               </div>
+               
+            </form>
+            </div>
+            </div>
+         </div>
+         </footer>
+
+
+   
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+      <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+      
+      <script>
+         $('.portfolio-item').isotope({
+        // options
+        itemSelector: '.item',
+        layoutMode: 'fitRows'
+      });
+            $('.portfolio-menu ul li').click(function(){
+            $('.portfolio-menu ul li').removeClass('active');
+            $(this).addClass('active');
+      
+               var selector = $(this).attr('data-filter');
+            $('.portfolio-item').isotope({
+               filter:selector
+            });
+            return false;
+         });
+      </script>
+      
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      
+      </script>   
+
+      <script src="./script.js">
+      </script>
+   </body>
+</html>
